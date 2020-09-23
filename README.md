@@ -19,6 +19,6 @@ testClient2 <-> testServer2
 
 ____
 
-Между centralRouter и inetRouter созданы 2 линка и объединины с помощью team-интерфейса team0 в режиме loadbalance
+Между centralRouter и inetRouter созданы 2 линка и объединины с помощью **team-интерфейса** `team0` в режиме loadbalance
 
 ![Image alt](https://github.com/Sergey-SSA/vlan/blob/master/printscreen/1.png)
