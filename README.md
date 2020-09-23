@@ -27,5 +27,34 @@ ____
 
 ![Image alt](https://github.com/Sergey-SSA/vlan/blob/master/printscreen/2.png)
 
+Проверим изоляцию testClient1 и testServer1 в vlan100
+
 ![Image alt](https://github.com/Sergey-SSA/vlan/blob/master/printscreen/3.png)
 
+Изоляция testClient2 и testServer2 в vlan101
+
+![Image alt](https://github.com/Sergey-SSA/vlan/blob/master/printscreen/4.png)
+
+Проверим доступность сети
+
+![Image alt](https://github.com/Sergey-SSA/vlan/blob/master/printscreen/5.png)
+
+![Image alt](https://github.com/Sergey-SSA/vlan/blob/master/printscreen/6.png)
+
+Созданы два netns
+
+![Image alt](https://github.com/Sergey-SSA/vlan/blob/master/printscreen/7.png)
+
+Так же созданы vlan100 и vlan101 на VRF100 и VRF101
+
+![Image alt](https://github.com/Sergey-SSA/vlan/blob/master/printscreen/8.png)
+
+Трансляция сети 10.10.10.0/24 в сеть 10.10.100(101)
+
+![Image alt](https://github.com/Sergey-SSA/vlan/blob/master/printscreen/9.png)
+
+И доступ для тест хостов интернет
+
+![Image alt](https://github.com/Sergey-SSA/vlan/blob/master/printscreen/10.png)
+
+![Image alt](https://github.com/Sergey-SSA/vlan/blob/master/printscreen/11.png)
